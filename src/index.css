@@ -37,7 +37,7 @@ header a{
     border-radius: 20px;
     color: white;
     cursor: pointer;
-    max-width: 100px;
+    max-width: 150px;
 }
 section{
     display: flex;
@@ -152,6 +152,9 @@ footer .btn_header{
         align-items: center;
         margin-top: 30px;
     }
+    .corpo_section_mobile .btn_header{
+        margin: 10px;
+    }
     .container{
         width: 98%;
         
@@ -161,6 +164,7 @@ footer .btn_header{
     }
     .botao_mobile{
         display: flex;
+        
     }
     ul{
         flex-direction: column;
@@ -221,6 +225,10 @@ footer .btn_header{
     .section_1 .texto_section{
         width: 90%;
         margin:auto;
+    }
+    .section_1{
+        
+        margin-top: 50px;
     }
     .bloco .texto_section{
         width: 90%;
